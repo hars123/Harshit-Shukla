@@ -25,7 +25,7 @@ I enjoy creating **responsive, user-friendly, and efficient web applications** w
 
 - **Frontend:** HTML, Tailwind CSS, JavaScript  
 - **Tools:** Git, GitHub, VS Code  
-- **Deployment:** Netlify  
+- **Deployment:** GitHub Pages  
 
 ---
 
