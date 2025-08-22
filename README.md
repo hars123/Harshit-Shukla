@@ -39,9 +39,9 @@ I enjoy creating **responsive, user-friendly, and efficient web applications** w
 ## 🔗 Author  
 
 **Harshit Shukla**  
-📍 MCA Student | Frontend Developer | Open Source Enthusiast  
+📍 MCA Student | Full Stack Developer | Open Source Enthusiast  
 
 <p align="center">
   <a href="https://github.com/hars123"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="[https://linkedin.com](https://www.linkedin.com/in/harshit1231/)"><img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>  
