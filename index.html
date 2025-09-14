@@ -438,7 +438,72 @@
       <span class="badge">Responsive</span>
     </ul>
   </div>
+  
+
+
 </article>
+
+ <article 
+  class="group relative rounded-2xl overflow-hidden bg-gray-900/70 border border-gray-800 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] backdrop-blur-md transform hover:-translate-y-2 transition-all duration-300 cursor-pointer project-card" 
+  onclick="openModal('modal2')">
+
+  <!-- Thumbnail -->
+  <div class="h-40 w-full overflow-hidden">
+    <img src="AI.jpg" alt="Quick AI" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500">
+  </div>
+
+  <!-- Content -->
+  <div class="p-6">
+    <div class="flex items-center justify-between">
+      <h3 class="text-white font-semibold">Quick AI - Saas Application</h3>
+      <!-- Tech Logos -->
+      <div class="flex gap-3 mt-4">
+        <i class="devicon-mongodb-plain colored text-xl"></i>
+        <i class="devicon-express-original colored text-xl"></i>
+        <i class="devicon-react-original colored text-xl"></i>
+        <i class="devicon-nodejs-plain colored text-xl"></i>
+      </div>
+    </div>
+    <p class="mt-3 text-sm text-gray-300">
+      Quick AI is a productivity web app built with the MERN stack that integrates AI-powered tools for faster workflows.  
+     
+    </p>
+    
+  </div>
+</article>
+
+<article 
+  class="group relative rounded-2xl overflow-hidden bg-gray-900/70 border border-gray-800 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] backdrop-blur-md transform hover:-translate-y-2 transition-all duration-300 cursor-pointer project-card" 
+  onclick="openModal('modal3')">
+
+  <!-- Thumbnail -->
+  <div class="h-40 w-full overflow-hidden">
+    <img src="prepwise.jpg" alt="Prepwise Online Mock Test" class="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500">
+  </div>
+
+  <!-- Content -->
+  <div class="p-6">
+    <div class="flex items-center justify-between">
+      <h3 class="text-white font-semibold">Prepwise – Online Mock Test</h3>
+      <!-- Tech Logos -->
+      <div class="flex gap-3 mt-4">
+        <i class="devicon-mongodb-plain colored text-xl"></i>
+        <i class="devicon-express-original colored text-xl"></i>
+        <i class="devicon-react-original colored text-xl"></i>
+        <i class="devicon-nodejs-plain colored text-xl"></i>
+      </div>
+    </div>
+    <p class="mt-3 text-sm text-gray-300">
+      Prepwise is an online mock test platform built with the MERN stack.  
+      It enables students to practice coding, aptitude, and interview-based mock tests with real-time evaluation, leaderboards, and progress tracking.
+    </p>
+    
+  </div>
+</article>
+
+
+
+
 <!-- Modal -->
 <div id="modal1" class="fixed inset-0 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
   <div class="bg-gray-900 text-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[80vh] p-6 transform scale-95 opacity-0 transition-all duration-300 modal-content overflow-y-auto">
@@ -489,9 +554,122 @@
   </div>
 </div>
 
+<div id="modal2" class="fixed inset-0 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+  <div class="bg-gray-900 text-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[80vh] p-6 transform scale-95 opacity-0 transition-all duration-300 modal-content overflow-y-auto">
+    
+    <!-- Close Button -->
+    <button class="absolute top-4 right-4 text-gray-400 hover:text-white" onclick="closeModal('modal2')">&times;</button>
+
+    <!-- Modal Content -->
+    <h2 class="text-2xl font-semibold">Quick AI</h2>
+    <p class="mt-3 text-gray-300 text-sm leading-relaxed space-y-3">
+      <span class="text-lg font-semibold text-cyan-400">Quick AI – Smart Productivity Platform</span>
+      <br>
+      Quick AI is a modern web app built with the <span class="text-cyan-300 font-medium">MERN stack</span>, designed to provide users with AI-powered tools that enhance productivity.  
+      It helps users generate creative content, analyze resumes for job readiness, and perform advanced image editing tasks seamlessly.  
+
+      <br><br>
+      <span class="text-cyan-400 font-semibold">🔹 Features</span>
+      <ul class="list-disc list-inside space-y-2 mt-2">
+  <li><span class="font-medium text-white">📝 Blog Title Generator</span> – Create catchy, SEO-friendly blog titles instantly.</li>
+  <li><span class="font-medium text-white">📄 Resume Analyzer</span> – Get AI-based feedback on resumes with ATS compatibility check.</li>
+  <li><span class="font-medium text-white">🖼️ Background Removal</span> – Remove image backgrounds in one click.</li>
+  <li><span class="font-medium text-white">✂️ Object Removal</span> – Erase unwanted elements from photos easily.</li>
+  <li><span class="font-medium text-white">🎨 Image Generation</span> – Generate creative images from text prompts using AI.</li>
+  <li><span class="font-medium text-white">📱 Responsive UI</span> – Modern, mobile-friendly design using Tailwind CSS.</li>
+  <li><span class="font-medium text-white">⚡ Real-Time Results</span> – Instant outputs powered by AI APIs.</li>
+</ul>
+
+
+      <br>
+      <span class="text-cyan-400 font-semibold">🔹 Tech Stack</span>
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li>Frontend: React.js, Tailwind CSS</li>
+        <li>Backend: Node.js, Express.js</li>
+        <li>Database: PostGress</li>
+        <li>Authentication : Clerk</li>
+        <li>AI Integrations: External AI APIs for content & image processing</li>
+      </ul>
+    </p>
+
+    <!-- Skills -->
+    <div class="flex gap-3 mt-4">
+      <i class="devicon-mongodb-plain colored text-xl"></i>
+      <i class="devicon-express-original colored text-xl"></i>
+      <i class="devicon-react-original colored text-xl"></i>
+      <i class="devicon-nodejs-plain colored text-xl"></i>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-6 flex gap-4">
+      <a href="https://matrix-ai-saas-app-3vl1.vercel.app/" target="_blank" class="px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-600 transition">Live Demo</a>
+      <a href="https://github.com/hars123/Matrix-AI-Saas-app.git" target="_blank" class="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition">View Code</a>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="fixed inset-0 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+  <div class="bg-gray-900 text-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[80vh] p-6 transform scale-95 opacity-0 transition-all duration-300 modal-content overflow-y-auto">
+    
+    <!-- Close Button -->
+    <button class="absolute top-4 right-4 text-gray-400 hover:text-white" onclick="closeModal('modal3')">&times;</button>
+
+    <!-- Modal Content -->
+    <h2 class="text-2xl font-semibold">Prepwise</h2>
+    <p class="mt-3 text-gray-300 text-sm leading-relaxed space-y-3">
+      <span class="text-lg font-semibold text-cyan-400">Prepwise – AI-Powered Mock Interview Platform</span>
+      <br>
+      Prepwise is an advanced online mock interview platform built with modern web technologies to help students and professionals practice interviews effectively.  
+      It generates **AI-driven interview questions**, evaluates answers, and provides instant feedback for improvement.  
+
+      <br><br>
+      <span class="text-cyan-400 font-semibold">🔹 Features</span>
+      <ul class="list-disc list-inside space-y-2 mt-2">
+        <li><span class="font-medium text-white">🤖 AI Question Generator</span> – Generate personalized mock interview questions based on role & skills.</li>
+        <li><span class="font-medium text-white">📝 Answer Evaluation</span> – Get instant AI-powered feedback on your responses.</li>
+        <li><span class="font-medium text-white">📊 Performance Analytics</span> – Track progress with detailed performance insights.</li>
+        <li><span class="font-medium text-white">📄 Resume Insights</span> – Analyze resumes and align practice questions with job requirements.</li>
+        <li><span class="font-medium text-white">📱 Responsive UI</span> – Smooth, mobile-friendly design powered by Tailwind CSS.</li>
+        <li><span class="font-medium text-white">⚡ Real-Time Results</span> – Instant interview simulation with AI feedback.</li>
+      </ul>
+
+      <br>
+      <span class="text-cyan-400 font-semibold">🔹 Tech Stack</span>
+      <ul class="list-disc list-inside space-y-1 mt-2">
+        <li>Frontend: React.js, Tailwind CSS, TypeScript</li>
+        <li>Backend & Hosting: Firebase (Authentication, Firestore Database, Hosting)</li>
+        <li>Authentication: Clerk</li>
+        <li>AI Integration: External AI APIs for question generation & feedback</li>
+      </ul>
+    </p>
+
+    <!-- Skills -->
+    <div class="flex gap-3 mt-4">
+      <i class="devicon-react-original colored text-xl"></i>
+      <i class="devicon-typescript-plain colored text-xl"></i>
+      <i class="devicon-firebase-plain colored text-xl"></i>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-6 flex gap-4">
+      <a href="https://your-prepwise-demo-link.com" target="_blank" class="px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-600 transition">Live Demo</a>
+      <a href="https://github.com/yourusername/prepwise.git" target="_blank" class="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition">View Code</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
     
         
     </div>
+
+
   </div>
 
 
